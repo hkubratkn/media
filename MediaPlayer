@@ -1,0 +1,8 @@
+val mediaPlayer = MediaPlayer.create(
+  context,
+  R.raw.app_src_main_res_raw_musicback
+)
+
+mediaPlayer.start()
+Thread.sleep(5000)
+mediaPlayer.stop()
